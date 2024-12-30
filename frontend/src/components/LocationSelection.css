@@ -1,0 +1,54 @@
+/* Container styles */
+.google-map {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Map container styles */
+  .google-map .gm-style .gmnoprint {
+    border-radius: 8px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Navigation buttons container */
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Custom button for address navigation */
+  button:nth-child(2) {
+    background-color: #4caf50;
+  }
+  
+  button:nth-child(3) {
+    background-color: #ff5722;
+  }
+  
